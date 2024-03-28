@@ -1,0 +1,86 @@
+
+******(STEPS 1 TO 8 SHOWS APP INITIALIZATION INSTRUCTIONS)******
+
+
+1- Create react project using (npm create vite@latest ./(./for current repo) -- --template react)
+
+2- Tailwind Installation and Initialization
+
+3- Installation of three/fibre(3js library) react maath (geometry) , react tilt(for tiltation), react vertical, emailjs, framer motion and router dom.
+
+4- Creation of assests, components , app.jsx, index.css, style.js,tailwindconfig(having primary, sec,tertiary colours and background image)
+
+5-utils folder creation (motion.js in it)    having motion animations.
+
+****imp*** 6- constants folder creation-> having index.js *****(note that it consist tech, exp and all changes done here will be reflected all over ).
+
+7-Command to run application-> npm run dev
+
+8- import all the components in app.jsx => browserrouter for routing
+                                        =>complete app.jsx
+                                        =>go to navbar component.
+
+******(STEPS 9 TO 13 SHOWS NAVBAR CREATION)******
+
+9-navbar-> useeefect for 3d model effect
+	->link to navigate on ohter parts of the page.
+	->import logo, menu, close.
+	->paddingX provide padding 6.
+	->scroll(0,0) to go to top of the page. 
+	->index.html change the name to Dhruv's Portolio and logo.svg
+	->change line 47 for tag line in navbar
+
+10- Reinstall Tailwind again with post css(npm install --legacy-peer-deps -D postcss autoprefixer and  npx tailwindcss init -p).
+
+11- Navlink in navbar brings about work and contact.(add hover to hover over them and then set the link active with set active).
+
+12- Create new class small devices(sm) for setting small device appearance of navbar.
+
+13- Toggle Creation for small / mobile devices.
+
+
+******(STEPS 13 TO 16 SHOWS HERO CREATION)*******
+
+
+14- import motion from framer-motion (for animations) as hero will be havng our 3d model
+
+15- classname ->relative screen will be having the background pattern
+		->round will have ball
+		->voilet gradient have line
+		->then all the headings
+16- Then go to computer canvas.
+
+******(STEPS 17 TO 19 SHOWS CANVAS IN COMPUTER.JSX CREATION)*******
+
+17- to draw on canvas import orbitalcontrols preload useGLTF(for 3d models).
+
+18- import your model scene.gltf and then hemispherical light( lights are coming from three.js)
+
+19- create 
+	->point light on computer.scene 
+	->in const computer canvas add camera(point of view we look towards desktop )
+	->add orbital controls.
+	->install three(npm install --legacy-peer-deps three)
+
+20- Loader Creation.
+
+21- Navigation GIF Creation in Hero.jsx using motion framer
+
+22-Go back to computer canvas to add mobile appearance of model (ismobile).
+
+******(STEPS 23 TO 29 ABOUT CREATION)*******
+
+23-import tilt for card tiltation
+
+24- tags coming from servies in constants edit that.(edit service cards in about.jsx)
+
+25-Create Section Wrapper
+
+26- Create Experience.jsx (create timeline)
+
+27- in tech add ball canvas then edit balls.jsx
+
+28- to remove any error (replace tilt to {tilt})
+
+
+
