@@ -20,5 +20,5 @@ To get started with this project, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/portfolio-3d.git
+   git clone https://github.com/DhruvTyagi18/portfolio-3d.git
    cd portfolio-3d
